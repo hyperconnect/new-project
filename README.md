@@ -3,12 +3,11 @@
 This repository contains a template you can use to seed a repository for a
 new open source project.
 
-See go/releasing (available externally at
-https://opensource.google.com/docs/releasing/) for more information about
-releasing a new Google open source project.
+(For hyperconnect employees) See internal OpenSource Guideline for more
+information about releasing a new Hyperconnect open source project.
 
-This template uses the Apache license, as is Google's default.  See the
-documentation for instructions on using alternate license.
+This template uses the Apache license, as is Hyperconnect's default.  See the
+Guildline for instructions on using alternate license.
 
 ## How to use this template
 
@@ -20,13 +19,13 @@ documentation for instructions on using alternate license.
 1. Develop your new project!
 
 ``` shell
-git clone https://github.com/google/new-project
+git clone https://github.com/hyperconnect/new-project
 mkdir my-new-thing
 cd my-new-thing
 git init
 cp ../new-project/* .
 git add *
-git commit -a -m 'Boilerplate for new Google open source project'
+git commit -a -m 'Boilerplate for new Hyperconnect open source project'
 ```
 
 ## Source Code Headers
@@ -38,7 +37,7 @@ doesn't comply with the license.)
 
 Apache header:
 
-    Copyright 2019 Google LLC
+    Copyright 2019 Hyperconnect Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
